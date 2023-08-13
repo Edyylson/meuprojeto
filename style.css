@@ -36,6 +36,7 @@ header p {
   font-family: var(--titulo);
   text-align: center;
   font-size: 30px;
+  height: auto;
 
 }
 
@@ -48,6 +49,7 @@ header {
   height: 150px;
   background-image: linear-gradient(to top, black, white, rgb(55, 48, 48), rgb(16, 15, 15));
   margin-bottom: 13px;
+  max-height: 200px;
   border: 1px solid blue;
 
 }
