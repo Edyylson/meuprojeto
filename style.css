@@ -13,7 +13,7 @@
   --titulo: font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   --corpo: font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-  --fundo: #3C3C42;
+  --fundo: #FDDFAA;
   --cortitulo: #747DC2;
 }
 
@@ -42,7 +42,7 @@ header {
   min-width: 300px;
   max-width: 1350px;
   height: 50%;
-  background-image: linear-gradient(to top, black, white, rgb(55, 48, 48), rgb(16, 15, 15));
+  background-image: linear-gradient(to top, #D2A869, white, white, #FDDFAA);
   margin-bottom: 13px;
   max-height: 200px;
 
@@ -51,13 +51,13 @@ header {
 body {
 
   margin-bottom: 40px;
-  background-image: linear-gradient(to top, black, white, rgb(55, 48, 48), rgb(16, 15, 15));
+  background-image: linear-gradient(to top, #FDDFAA, white, rgb(237, 200, 206), #FDDFAA, #D2A869);
 
 
 }
 
 main {
-  background-color: white;
+  background-color: #EEC88D;
   min-width: 300px;
   max-width: 1000px;
   margin: auto;
@@ -97,8 +97,10 @@ a {
 nav {
   background-color: #3C3C42;
   margin: auto;
+  width: 100%;
   min-width: 350px;
   max-width: 970px;
+  max-height: 250px;
 
 }
 
@@ -162,7 +164,7 @@ main .div3 video {
 ol {
 
   list-style-type: '\2714';
-  background-image: linear-gradient(to top, rgb(20, 10, 81), white);
+  background-image: linear-gradient(to top, #AFDB7A, white);
   padding: 20px 20px 20px 20px;
   text-indent: 20px;
 
@@ -172,7 +174,7 @@ ol {
 .list {
   margin-top: 40px;
   border-radius: 25px 25px 0px 0px;
-  background-color: black;
+  background-color: #065502;
   color: white;
   text-align: center;
   height: 100%;
