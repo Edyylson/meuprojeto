@@ -42,7 +42,7 @@ header p {
 
 header {
 
-  min-width: 350px;
+  min-width: 300px;
   max-width: 1350px;
   height: 150px;
   background-image: linear-gradient(to top, black, white, rgb(55, 48, 48), rgb(16, 15, 15));
@@ -60,7 +60,7 @@ body {
 
 main {
   background-color: white;
-  min-width: 350px;
+  min-width: 300px;
   max-width: 1000px;
   margin: auto;
   border-radius: 20px;
@@ -135,19 +135,24 @@ img {
 
 }
 
-.div2 iframe {
+main .div2 iframe {
 
   display: block;
   margin: auto;
   min-width: 300px;
-  max-width: 800px;
+  max-width: 1000px;
 
 }
 
-.div3 video {
+main .div3 video {
 
   display: block;
   margin: auto;
+  max-width: 1000px;
+  min-width: 300px;
+
+
+
 
 
 }
@@ -175,14 +180,6 @@ ol {
   height: 70px;
   font-size: 17px;
   padding-top: 15px;
-
-
-}
-
-.vid1 {
-  min-width: 300px;
-  max-width: 700px;
-
 
 
 }
