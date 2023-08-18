@@ -8,15 +8,38 @@
 }
 
 
-Body {
-  background-color: black;
+.imagem01 {
+
+  border-radius: 20px;
+  border: 1px solid red;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
 
 }
 
+#estilo01 {
+  background-color: blue;
 
-.Tm1 {
-  color: white;
+}
+
+#estilo02 {
+  background-image: linear-gradient(to left, pink, orange, green);
+  background-size: 100px;
+
+}
+
+#estilo03 {
+  background-image: url("imagens de fundo/fundo02.jpg");
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+}
 
 
+#estilo04 {
+  background-image: url("imagens de fundo/fundo01.jpeg");
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
 
 }
