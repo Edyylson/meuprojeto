@@ -112,9 +112,11 @@ section.imagemf {
 }
 
 #img02 {
-  background-image: url('imagens de fundo gif/cafe.gif');
+  background-image: url('imagens de fundo gif/carta_escrita.gif');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
+
 }
 
 
