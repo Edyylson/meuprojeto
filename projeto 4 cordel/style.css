@@ -103,6 +103,7 @@ section.imagemf {
   color: white;
   box-shadow: inset 20px 20px 30px 0px rgb(20, 20, 39);
   background-attachment: fixed;
+  min-width: 300px;
 
 
 
@@ -112,6 +113,7 @@ section.imagemf {
   background-image: url('imagens de fundo gif/borboleta.gif');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right center;
 }
 
 #img02 {
