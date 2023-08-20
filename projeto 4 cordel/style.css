@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
 
+
+:root {
+
+  --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte02: 'Times New Roman', Times, serif
+}
+
+
 * {
 
   margin: 0px;
@@ -10,6 +18,8 @@
 body {
   min-height: 100vh;
   background-color: darkgray;
+  font-family: var(--fonte01);
+
 }
 
 
@@ -24,6 +34,8 @@ header {
 header>h1 {
   font-variant: small-caps;
   padding-top: 50px;
+  font-family: var(--fonte02);
+  font-size: 50px;
 
 }
 
@@ -53,6 +65,14 @@ section {
   padding-bottom: 10vh;
   line-height: 2em;
   padding-left: 33px;
+  font-size: 3vw;
+
+}
+
+
+
+section>p {
+  padding-bottom: 1.5em;
 
 }
 
@@ -66,8 +86,8 @@ section.normal {
 
 section.imagemf>p {
   background-color: rgb(54, 49, 49);
-  width: 400px;
-  padding-left: 5px;
+  display: inline-block;
+  padding: 5px;
 
 
 
@@ -85,7 +105,17 @@ section.imagemf {
 
 }
 
+#img01 {
+  background-image: url('imagens de fundo gif/borboleta.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+#img02 {
+  background-image: url('imagens de fundo gif/cafe.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
