@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+* {
+
+  margin: 0px;
+  padding: 0px;
+
+}
+
+section {
+  display: inline-block;
+  background-color: blue;
+  border: 1px solid green;
+  width: 49vw;
+  height: 600px;
+  ;
+
+}
