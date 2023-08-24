@@ -12,8 +12,10 @@ section {
   display: inline-block;
   background-color: blue;
   border: 1px solid green;
-  width: 49vw;
+  width: 45vw;
   height: 600px;
-  ;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
 
 }
