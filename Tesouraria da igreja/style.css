@@ -1,5 +1,58 @@
-@charset * {
+@charset "UTF-8";
+
+
+* {
+
   margin: 0px;
   padding: 0px;
+}
 
+
+table {
+  width: 500px;
+  height: 1000px;
+  border-collapse: collapse;
+}
+
+
+
+
+
+td {
+  border: 1px solid blue;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+
+
+th {
+
+  border: 1px solid black;
+  width: 100px;
+  height: 30px;
+  background-color: blue
+}
+
+
+div {
+  border: 1px solid red;
+}
+
+caption {
+  padding: 5px;
+
+
+}
+
+tbody>tr:nth-child(2n) {
+  background-color: gray;
+
+}
+
+thead>tr>th {
+  position: sticky;
+  top: -1px
 }
