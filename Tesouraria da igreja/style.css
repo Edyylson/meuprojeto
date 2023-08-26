@@ -7,45 +7,81 @@
   padding: 0px;
 }
 
-
-table {
-  width: 500px;
-  height: 1000px;
-  border-collapse: collapse;
+body {
+  background-color: white;
+  width: 100%;
+  min-width: 350px;
 }
 
 
+h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
+main {
+  background-color: white;
+  width: 100%;
+  min-width: 350px;
+}
+
+
+div {
+  width: 49%;
+  height: 500px;
+  display: inline-block;
+
+}
+
+
+#v01 {
+  background-color: white;
+  width: 70%;
+  background-image: url("imagens gif/trigos.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+#v02 {
+  background-color: rgb(195, 159, 92);
+  width: 28%;
+  height: 800px;
+
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  min-width: 300px;
+  width: 100%;
+}
+
+.agosto {
+  width: 20%;
+
+}
 
 
 td {
   border: 1px solid blue;
-  padding: 5px;
   text-align: center;
   vertical-align: middle;
-
+  font-size: 2em;
+  padding: 5px;
+  font-weight: bold;
 }
-
 
 
 th {
 
   border: 1px solid black;
   width: 100px;
-  height: 30px;
-  background-color: blue
+  height: 50px;
+  background-color: blue;
 }
 
-
-div {
-  border: 1px solid red;
-}
-
-caption {
-  padding: 5px;
-
-
-}
 
 tbody>tr:nth-child(2n) {
   background-color: gray;
@@ -55,4 +91,24 @@ tbody>tr:nth-child(2n) {
 thead>tr>th {
   position: sticky;
   top: -1px
+}
+
+
+#cor_saida {
+  color: red;
+
+
+}
+
+#cor_entrada {
+  color: green;
+
+
+}
+
+
+caption {
+  font-size: 2em;
+
+
 }
