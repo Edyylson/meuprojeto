@@ -7,12 +7,6 @@
   padding: 0px;
 }
 
-body {
-  background-color: white;
-  width: 100%;
-  min-width: 350px;
-}
-
 
 h1 {
   font-size: 60px;
@@ -20,36 +14,24 @@ h1 {
   text-align: center;
 }
 
-main {
-  background-color: white;
-  width: 100%;
-  min-width: 350px;
-}
-
 
 div {
-  width: 49%;
-  height: 500px;
-  display: inline-block;
+  width: 100%;
+  height: auto;
 
 }
 
 
 #v01 {
   background-color: white;
-  width: 70%;
-  background-image: url("imagens gif/trigos.gif");
+  width: 100%;
+  background-image: url("imagens gif/folhas.gif");
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
-}
-
-#v02 {
-  background-color: rgb(195, 159, 92);
-  width: 28%;
-  height: 800px;
 
 }
+
 
 table {
   border-collapse: collapse;
