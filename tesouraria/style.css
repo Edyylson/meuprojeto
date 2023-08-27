@@ -7,12 +7,16 @@
   padding: 0px;
 }
 
-
-h1 {
-  font-size: 60px;
+header {
+  margin: auto;
+  border: 2px solid green;
   margin-bottom: 20px;
   text-align: center;
+  background-color: black;
+  color: white;
+
 }
+
 
 
 div {
@@ -24,11 +28,12 @@ div {
 
 #v01 {
   background-color: white;
-  width: 100%;
+  width: 85%;
   background-image: url("imagens gif/folhas.gif");
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
+  margin: auto;
 
 }
 
@@ -53,6 +58,7 @@ td {
   font-size: 1em;
   padding: 5px;
   font-weight: bold;
+  font-family: 'Dancing Script', cursive;
 }
 
 
@@ -82,15 +88,17 @@ thead>tr>th {
 
 }
 
-#cor_entrada {
-  color: green;
+
+caption {
+  font-size: 2em;
+  font-weight: bold;
+
 
 
 }
 
-
-caption {
-  font-size: 2em;
+h1 {
+  font-size: 3em;
 
 
 }
